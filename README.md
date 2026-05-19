@@ -138,5 +138,3 @@ git push -u origin main
 Replace `<your-repo-url>` with your GitHub repository URL.
 
 ---
-
-If you want, I can also help you create a `README` preview with badges and a short repository description for GitHub.
