@@ -146,3 +146,30 @@ git push -u origin main
 Replace `<your-repo-url>` with your GitHub repository URL.
 
 ---
+## 📸 Output Screenshots & Results
+
+### Streamlit App Interface
+![ML Interface](ML Interface.png)
+
+### Real Video Detection
+![ML Real Video](ML Real Video.png)
+
+### Fake Video Detection
+![ML Fake Video](ML Fake Video.png)
+
+### Real Image Detection
+![ML Real Image](ML Real Image.png)
+
+### Fake Image Detection
+![ML Fake Image](ML Fake Image.png)
+
+---
+
+## 🎯 Summary of Results
+
+| Input Type | Detection Result |
+|------------|------------------|
+| Real Video | ✅ **REAL** |
+| Fake Video | ❌ **FAKE** |
+| Real Image | ✅ **REAL** |
+| Fake Image | ❌ **FAKE** |
