@@ -22,6 +22,13 @@ A deepfake detection system for images and videos that uses an ensemble of pretr
 
 ## 📂 Dataset Layout
 
+Dataset Download
+
+1. Download the dataset: https://drive.google.com/file/d/1xpB29HPRXY0h0KqeultZmMxLpqaKPghD/view?usp=sharing
+
+2. Extract the ZIP file to your project folder
+
+
 The expected folder structure is:
 
 ```
