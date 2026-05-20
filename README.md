@@ -1,6 +1,7 @@
 # Ensemble-Deepfake-Detection
 
-**Interact with model **: https://ml5-ensemble-deepfake-detection.streamlit.app/
+Interact with model : https://ml5-ensemble-deepfake-detection.streamlit.app
+
 A deepfake detection system for images and videos that uses an ensemble of pretrained and custom deep learning models. The project includes a Streamlit app, a training script, and a calibration helper for tuning decision thresholds.
 
 ## 🚀 Project Highlights
