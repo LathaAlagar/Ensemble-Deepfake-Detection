@@ -4,7 +4,7 @@ Interact with model : https://ml5-ensemble-deepfake-detection.streamlit.app
 
 A deepfake detection system for images and videos that uses an ensemble of pretrained and custom deep learning models. The project includes a Streamlit app, a training script, and a calibration helper for tuning decision thresholds.
 
-## 🚀 Project Highlights
+##  Project Highlights
 
 - Detects `REAL` vs `FAKE` content in images and videos
 - Uses an ensemble of multiple models for more stable predictions
@@ -12,7 +12,7 @@ A deepfake detection system for images and videos that uses an ensemble of pretr
 - Includes threshold calibration using `calibrate_thresholds.py`
 - Provides video frame-level override logic for suspicious content
 
-## 📁 Repository Structure
+##  Repository Structure
 
 - `main.py` — Streamlit app for image/video detection
 - `train_best_model.py` — Train and fine-tune an EfficientNet-based model
@@ -21,7 +21,7 @@ A deepfake detection system for images and videos that uses an ensemble of pretr
 - `Dataset/` — Dataset split into `Train`, `Validation`, `Test`
 - Model files: `mobilenet_model.h5`, `resnet_model.h5`, `efficientnet_model.h5`, `cnn_lstm_deepfake.keras`, optional `best_model.h5`
 
-## 📂 Dataset Layout
+##  Dataset Layout
 
 Dataset Download
 
@@ -68,7 +68,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-## 🧠 Training a New Model
+##  Training a New Model
 
 To train a new custom `best_model.h5`, run:
 
@@ -85,7 +85,7 @@ What the script does:
 
 Once `best_model.h5` exists, `main.py` will include it in the ensemble automatically.
 
-## 🔧 Calibrating Thresholds
+##  Calibrating Thresholds
 
 Run threshold calibration with:
 
@@ -101,7 +101,7 @@ python calibrate_thresholds.py --sample 1000
 
 This script evaluates the validation dataset, prints model-specific thresholds, and creates `calibration_results.csv`.
 
-## 🌐 Using the App
+##  Using the App
 
 Start the Streamlit application:
 
@@ -123,13 +123,13 @@ Based on validation calibration, these defaults are recommended:
 - `Image / Video threshold`: `0.70`
 - `Frame fake threshold`: `0.66`
 
-## 📝 Notes
+##  Notes
 
 - Ensure all required model files are present in the project root.
 - If the predictions are inconsistent, retrain `best_model.h5` and recalibrate thresholds.
 - Use the `Dataset/Validation` folder to tune thresholds for your data distribution.
 
-## 📌 GitHub Usage
+##  GitHub Usage
 
 To publish this project to GitHub:
 
@@ -146,7 +146,7 @@ git push -u origin main
 Replace `<your-repo-url>` with your GitHub repository URL.
 
 ---
-## 📸 Output Screenshots & Results
+##  Output Screenshots & Results
 
 ### Streamlit App Interface
 ![ML Interface](ML Interface.png)
@@ -165,11 +165,11 @@ Replace `<your-repo-url>` with your GitHub repository URL.
 
 ---
 
-## 🎯 Summary of Results
+##  Summary of Results
 
 | Input Type | Detection Result |
 |------------|------------------|
-| Real Video | ✅ **REAL** |
-| Fake Video | ❌ **FAKE** |
-| Real Image | ✅ **REAL** |
-| Fake Image | ❌ **FAKE** |
+| Real Video |  **REAL** |
+| Fake Video |  **FAKE** |
+| Real Image |  **REAL** |
+| Fake Image |  **FAKE** |
